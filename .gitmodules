@@ -1,0 +1,6 @@
+[submodule "MoviesAPI.ReactJS"]
+	path = MoviesAPI.ReactJS
+	url = https://github.com/VarvaraZadnepriak/MoviesAPI.ReactJS.git
+[submodule "Client"]
+	path = Client
+	url = https://github.com/eduardo-neto-epam/NetflixRoulette-Client.git

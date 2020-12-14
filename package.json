@@ -2,9 +2,11 @@
   "name": "netflixroulette",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:client": "cd client && npm run test",
+    "start:api": "cd MoviesAPI.ReactJS && npm run start",
+    "start:dev": "cd client && npm run start",
+    "dev": "npm-run-all -p start:api start:dev"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/eduardo-neto-epam/NetflixRoulette/issues"
   },
-  "homepage": "https://github.com/eduardo-neto-epam/NetflixRoulette#readme"
+  "homepage": "https://github.com/eduardo-neto-epam/NetflixRoulette#readme",
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
 }

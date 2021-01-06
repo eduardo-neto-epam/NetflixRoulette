@@ -1,0 +1,5 @@
+{
+    "eslint.alwaysShowStatus": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.useTabs": true
+}
